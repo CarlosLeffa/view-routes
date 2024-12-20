@@ -7,6 +7,6 @@
 
 return [
 
-    'rota' => "",
+    'rota' => "/rotas",
 
 ];

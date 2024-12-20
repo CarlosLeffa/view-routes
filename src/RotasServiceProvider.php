@@ -24,7 +24,7 @@ class RotasServiceProvider extends ServiceProvider
         
         if ($this->app->runningInConsole()) {
             $this->publishes([
-                __DIR__.'/../config/view-routes.php' => 'view-routes.php',
+                __DIR__.'/../config/view-routes.php' => 'config/view-routes.php',
             ], 'view-routes');
         }
 
