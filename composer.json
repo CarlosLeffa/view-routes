@@ -1,6 +1,6 @@
 {
     "name": "leffacarlos/view-routes",
-    "description": "cria uma rota para acessar uma visualização das rotas",
+    "description": "cria uma rota para acessar uma visualização das rotas.",
     "type": "library",
     "license": "MIT",
     "autoload": {
