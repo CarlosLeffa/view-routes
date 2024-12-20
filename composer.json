@@ -3,6 +3,7 @@
     "description": "cria uma rota para acessar uma visualização das rotas",
     "type": "library",
     "license": "MIT",
+    "version": "",
     "autoload": {
         "psr-4": {
             "LeffaCarlos\\ViewRoutes\\": "src/"
@@ -24,7 +25,7 @@
     "extra": {
       "laravel": {
         "providers": [
-           "LeffaCarlos\\ViewRoutes\\RotasServiceProvider"
+           
         ]
       }
     }
