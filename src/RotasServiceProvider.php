@@ -1,6 +1,6 @@
 <?php
 
-namespace Leffacarlos\Rotas;
+namespace LeffaCarlos\ViewRoutes;
 
 use Illuminate\Foundation\Console\AboutCommand;
 use Illuminate\Support\ServiceProvider;
