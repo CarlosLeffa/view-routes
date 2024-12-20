@@ -1,0 +1,31 @@
+{
+    "name": "leffacarlos/view-routes",
+    "description": "cria uma rota para acessar uma visualização das rotas",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "LeffaCarlos\\ViewRoutes\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Carlos Leffa",
+            "email": "leffa.carlos@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "laravel/framework": "^11.0|^10.0|^9.0|^8.0"
+    },
+    "require-dev": {
+        
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+           "LeffaCarlos\\ViewRoutes\\RotasServiceProvider"
+        ]
+      }
+    }
+}
