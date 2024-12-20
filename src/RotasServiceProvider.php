@@ -29,6 +29,6 @@ class RotasServiceProvider extends ServiceProvider
         }
 
         $this->loadRoutesFrom(__DIR__.'/../routes/view-routes.php');
-        $this->loadViewsFrom(__DIR__.'/../resources/view/view-routes', 'view-routes');
+        $this->loadViewsFrom(__DIR__.'/../resources/views', 'view-routes');
     }
 }
