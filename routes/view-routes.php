@@ -2,13 +2,13 @@
 
 use Illuminate\Support\Facades\Route;
 
-if (env('APP_DEBUG'))
+//if (env('APP_DEBUG'))
 {
     if (env('TELESCOPE_ENABLED')) {
         Route::get('/' . env('TELESCOPE_PATH'), function() {});
     }
-
-    Route::get('/rotas', function() {
+    $rotas = config('view-routes.rotas');
+    Route::get($rotas, function() {
         $routesAll = Route::getRoutes();
         //dd($routesAll);
 

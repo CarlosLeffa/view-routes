@@ -7,6 +7,6 @@
 
 return [
 
-    'rota' => "/rotas",
+    'rotas' => env('VIEW_ROUTES_ROTA', 'rotas'),
 
 ];
