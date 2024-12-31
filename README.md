@@ -18,6 +18,8 @@ composer require leffacarlos/view-routes
 By default a route will be created for `/view-routes`.
 If you wish, you can publish the configuration file but all keys can be written to your .env file as explained below:
 
+----
+
 #### VIEW_ROUTES_HIDE_IN_PRODUCTION=`true`
 
 Defines whether the route will be hidden in a production environment
@@ -72,7 +74,7 @@ Ex: `oauth,reset-password,view-routes`
 #### VIEW_ROUTES_HIDE_NAMES_PREFIXES=`view.routes`
 
 Some initial prefixes can be defined to hide the routes. By the route name.
-Ex: `passport.view.routes`
+Ex: `passport.,view.routes`
 
 ----
 
