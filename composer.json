@@ -1,6 +1,6 @@
 {
     "name": "leffacarlos/view-routes",
-    "description": "cria uma rota para acessar uma visualização das rotas.",
+    "description": "This package allows you to view Laravel routes on a web page.",
     "type": "library",
     "license": "MIT",
     "version": "0.0.1",
@@ -15,8 +15,8 @@
         }
     ],
     "require": {
-        "php": "^8.0",
-        "laravel/framework": "^11.0|^10.0|^9.0|^8.0"
+        "php": "^7.0",
+        "laravel/framework": "^11.0|^10.0|^9.0|^8.0|^7.0|^6.0|^5.0"
     },
     "extra": {
       "laravel": {
